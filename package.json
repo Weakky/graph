@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "start": "ts-node src/neo4j.ts",
+    "pretty": "prettier --write \"**/*.ts\""
+  },
+  "dependencies": {
+    "@types/moment": "^2.13.0",
+    "bluebird": "^3.5.3",
+    "csv-parser": "^2.1.0",
+    "date-fns": "^1.30.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "neo4j-driver": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.25",
+    "@types/lodash": "^4.14.120",
+    "@types/node": "^10.12.15",
+    "prettier": "^1.15.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  }
+}
